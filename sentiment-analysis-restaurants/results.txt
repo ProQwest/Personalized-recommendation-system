@@ -1,0 +1,438 @@
+Average vec as feature with random forest classifier:
+
+true_positives
+207.0
+true_negatives
+216.0
+false_positives
+84.0
+false_negatives
+93.0
+precision = 
+0.714285714286
+recall = 
+0.7
+f_measure = 
+0.707070707071
+
+Average vec as feature with maxent classifier:
+
+  ==> Training (25 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.32451        1.000
+             3          -0.16939        1.000
+             4          -0.09222        1.000
+             5          -0.05122        1.000
+             6          -0.02875        1.000
+             7          -0.01623        1.000
+             8          -0.00919        1.000
+             9          -0.00521        1.000
+            10          -0.00296        1.000
+            11          -0.00168        1.000
+            12          -0.00095        1.000
+            13          -0.00054        1.000
+            14          -0.00031        1.000
+            15          -0.00018        1.000
+            16          -0.00010        1.000
+            17          -0.00006        1.000
+            18          -0.00003        1.000
+            19          -0.00002        1.000
+            20          -0.00001        1.000
+            21          -0.00001        1.000
+            22          -0.00000        1.000
+            23          -0.00000        1.000
+            24          -0.00000        1.000
+         Final          -0.00000        1.000
+true_positives
+295.0
+true_negatives
+13.0
+false_positives
+287.0
+false_negatives
+5.0
+precision = 
+0.506872852234
+recall = 
+0.983333333333
+f_measure = 
+0.668934240363
+
+Bag of centroid with random forest classifier:
+
+Cluster 0
+['essentially', 'basic', 'anaconda', 'relatively', 'succeeds', 'angle']
+
+Cluster 1
+['working', 'member', 'fame', 'vincent', 'bond']
+
+Cluster 2
+['worth']
+
+Cluster 3
+['support', 'obsessed', 'sandra', 'older', 'attractive']
+
+Cluster 4
+['survive', 'catch', 'decide', 'ready', 'fly', 'buy']
+
+Cluster 5
+['hear', 'yeah', 'oh']
+
+Cluster 6
+['comes', 'job', 'gets']
+
+Cluster 7
+['historical', 'basis', 'efforts', 'makeup', 'opera', 'bleak', 'specifically', 'according', 'promising', 'inspired', 'deals', 'focuses', 'remains', 'wildly', 'books', 'aforementioned', 'stab']
+
+Cluster 8
+['speak', 'desire', 'normal', 'actions', 'failed', 'continue', 'cause', 'fear']
+
+Cluster 9
+['stewart', 'cox', 'tucker', 'charismatic', 'pam', 'harrison', 'hopkins', 'susan', 'reputation', 'winner', 'received']
+
+true_positives
+225.0
+true_negatives
+238.0
+false_positives
+62.0
+false_negatives
+75.0
+precision = 
+0.783972125436
+recall = 
+0.75
+f_measure = 
+0.76660988075
+
+Bag of centroid with maxent classifier:
+
+Time taken for K Means clustering:  22.1863901615 seconds.
+
+Cluster 0
+['memorable', 'effective', 'dramatic', 'strong', 'minor']
+
+Cluster 1
+['vision']
+
+Cluster 2
+['melvin', 'wears', 'dreams', 'desire', 'believes', 'reveals', 'area', 'condition', 'pulls', 'identity', 'refuses', 'puts', 'explaining', 'position', 'loses']
+
+Cluster 3
+['possible', 'difficult', 'simple']
+
+Cluster 4
+['player', 'letter', 'charlie', 'priest', 'rose', 'natasha', 'professor', 'scientist', 'baby', 'fellow', 'accused', 'dressed']
+
+Cluster 5
+['stupid', 'add', 'enough', 'aren', 'hard', 'dumb']
+
+Cluster 6
+['plus', 'sports', 'formula', 'pop', 'source', 'structure', 'cliched', 'related', 'category']
+
+Cluster 7
+['wanted', 'explain', 'ask']
+
+Cluster 8
+['damon', 'matt', 'dillon']
+
+Cluster 9
+['under', 'law', 'meanwhile']
+  ==> Training (10 iterations)
+
+      Iteration    Log Likelihood    Accuracy
+      ---------------------------------------
+             1          -0.69315        0.500
+             2          -0.44365        0.824
+             3          -0.33298        0.824
+             4          -0.27257        0.824
+             5          -0.23594        0.824
+             6          -0.21232        0.824
+             7          -0.19653        0.824
+             8          -0.18576        0.824
+             9          -0.17835        0.824
+         Final          -0.17323        0.826
+true_positives
+243.0
+true_negatives
+63.0
+false_positives
+237.0
+false_negatives
+57.0
+precision = 
+0.50625
+recall = 
+0.81
+f_measure = 
+0.623076923077
+
+Cluster 0
+['mention']
+
+Cluster 1
+['banderas', 'sides', 'obligatory', 'exchange']
+
+Cluster 2
+['buddy', 'bacon', 'lewis', 'hank', 'charlie', 'laura', 'assistant', 'priest', 'cross', 'greg', 'seth', 'baseball', 'chicago', 'jeff', 'sheriff', 'thief']
+
+Cluster 3
+['rarely', 'remotely', 'importantly', 'significant', 'common', 'distracting', 'plots', 'required', 'closer', 'necessary']
+
+Cluster 4
+['ridiculous', 'suspense', 'cheap', 'tedious', 'laughable', 'clich', 'exciting', 'pointless']
+
+Cluster 5
+['escape', 'team', 'eventually', 'plan', 'secret', 'business', 'control', 'order', 'police', 'drug']
+
+Cluster 6
+['risk', 'reference', 'plus', 'exact', 'till', 'expression', 'reminded', 'enjoying', 'religion', 'impressed', 'proof', 'reminds']
+
+Cluster 7
+['path', 'ordinary', 'intellectual', 'produce', 'differences', 'imagination', 'senses', 'carefully', 'draw', 'allowing', 'notion', 'tend', 'politics']
+
+Cluster 8
+['yes', 'hard']
+
+Cluster 9
+['boogie', 'anderson', 'designer', 'featuring', 'design', 'nights', 'notch', 'stylish', 'costume', 'besson', 'photography', 'appearances']
+
+true_positives
+245.0
+true_negatives
+74.0
+false_positives
+226.0
+false_negatives
+55.0
+precision = 
+0.52016985138
+recall = 
+0.816666666667
+f_measure = 
+0.635538261997
+
+average feature vector:
+
+2015-11-11 12:09:23,824 : INFO : Initializing neural network with 2 layers, 300 inputs and 2 outputs.
+2015-11-11 12:09:24,543 : INFO : Training on dataset of 1,400 samples with 422,800 total size.
+2015-11-11 12:09:34,269 : INFO : Terminating after specified 25 total iterations.
+true_positives
+75.0
+true_negatives
+275.0
+false_positives
+25.0
+false_negatives
+225.0
+precision = 
+0.75
+recall = 
+0.25
+f_measure = 
+0.375
+
+2015-11-11 12:12:34,559 : INFO : Initializing neural network with 2 layers, 300 inputs and 2 outputs.
+2015-11-11 12:12:35,302 : INFO : Training on dataset of 1,400 samples with 422,800 total size.
+2015-11-11 12:15:54,288 : INFO : Terminating after specified 500 total iterations.
+true_positives
+257.0
+true_negatives
+160.0
+false_positives
+140.0
+false_negatives
+43.0
+precision = 
+0.647355163728
+recall = 
+0.856666666667
+f_measure = 
+0.737446197991
+
+
+bag of centroid approach:
+
+
+Cluster 0
+['damon', 'matt']
+
+Cluster 1
+['offer', 'pull']
+
+Cluster 2
+['african', 'angel', 'tribe', 'frankenstein', 'selling', 'mickey', 'cuba', 'lebowski', 'sonny', 'honor']
+
+Cluster 3
+['worth', 'alone']
+
+Cluster 4
+['balance', 'terrific', 'scorsese', 'superb', 'branagh', 'provides', 'notable', 'notably', 'portrayal', 'gorgeous', 'ensemble', 'extraordinary', 'outstanding', 'nonetheless', 'fits', 'endearing', 'finest', 'timing', 'intensity', 'brilliantly', 'delivers']
+
+Cluster 5
+['course', 'around']
+
+Cluster 6
+['impressed', 'proof', 'utter', 'helped']
+
+Cluster 7
+['dry', 'core', 'genuinely', 'humour', 'deals', 'humorous', 'soft']
+
+Cluster 8
+['losing', 'trial']
+
+Cluster 9
+['especially', 'poor']
+2015-11-11 13:06:34,920 : INFO : Initializing neural network with 2 layers, 641 inputs and 2 outputs.
+2015-11-11 13:06:35,719 : INFO : Training on dataset of 1,400 samples with 900,200 total size.
+2015-11-11 13:12:00,728 : INFO : Terminating after specified 500 total iterations.
+true_positives
+232.0
+true_negatives
+222.0
+false_positives
+78.0
+false_negatives
+68.0
+precision = 
+0.748387096774
+recall = 
+0.773333333333
+f_measure = 
+0.760655737705
+
+
+
+
+NAIVE BAYES:
+
+APPROACH 1:
+
+true_positives
+180.0
+true_negatives
+205.0
+false_positives
+95.0
+false_negatives
+120.0
+precision = 
+0.654545454545
+recall = 
+0.6
+f_measure = 
+0.626086956522
+
+APPROACH 2:
+
+Cluster 0
+['appreciate', 'consider', 'cry']
+
+Cluster 1
+['hole', 'bear']
+
+Cluster 2
+['cameron', 'jerry', 'taylor', 'simon', 'equally']
+
+Cluster 3
+['this']
+
+Cluster 4
+['darkness', 'golden', 'sun', 'christian', 'leading', 'legendary']
+
+Cluster 5
+['loud', 'corny', 'goofy', 'lame', 'plain', 'unfunny']
+
+Cluster 6
+['bone', 'psychotic', 'bitter', 'baseball', 'crazed']
+
+Cluster 7
+['themes', 'complex', 'importantly', 'fascinating', 'intriguing', 'concerned']
+
+Cluster 8
+['campaign', 'african', 'tour', 'unknown', 'malcolm', 'center', 'empire']
+
+Cluster 9
+['deal', 'true', 'complete']
+true_positives
+155.0
+true_negatives
+236.0
+false_positives
+64.0
+false_negatives
+145.0
+precision = 
+0.707762557078
+recall = 
+0.516666666667
+f_measure = 
+0.597302504817
+
+SVM:
+
+APPROACH 1:
+
+true_positives
+288.0
+true_negatives
+46.0
+false_positives
+254.0
+false_negatives
+12.0
+precision = 
+0.531365313653
+recall = 
+0.96
+f_measure = 
+0.684085510689
+
+APPROACH 2:
+
+Cluster 0
+['save', 'kill', 'lose']
+
+Cluster 1
+['drew', 'letter', 'election', 'spy']
+
+Cluster 2
+['whenever', 'screenwriters', 'putting', 'literally']
+
+Cluster 3
+['never', 'it', 'one', 'that', 'or', 'be', 'about', 'this', 'but']
+
+Cluster 4
+['types', 'protagonist', 'wonderfully', 'relies', 'setting', 'execution', 'levels', 'remains']
+
+Cluster 5
+['innocent', 'believes', 'talks', 'pregnant', 'loves', 'position', 'loses', 'alive']
+
+Cluster 6
+['created', 'burton']
+
+Cluster 7
+['crap']
+
+Cluster 8
+['finally', 'until', 'after', 'begin', 'try', 'ends']
+
+Cluster 9
+['logic', 'crowd', 'occur', 'images', 'difference', 'presented', 'nonsense']
+true_positives
+212.0
+true_negatives
+198.0
+false_positives
+102.0
+false_negatives
+88.0
+precision = 
+0.675159235669
+recall = 
+0.706666666667
+f_measure = 
+0.690553745928
